@@ -1,8 +1,8 @@
 {
-  "name": "backend",
+  "name": "sharonbach-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Sharon Bach's portfolio website",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,11 +11,14 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.0.0",
-    "@strapi/plugin-users-permissions": "4.0.0",
-    "@strapi/plugin-i18n": "4.0.0",
-    "@strapi/provider-upload-cloudinary": "^4.0.0",
+    "@strapi/design-system": "0.0.1-alpha.70",
     "@strapi/plugin-graphql": "4.0.0",
+    "@strapi/plugin-i18n": "4.0.0",
+    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/provider-upload-cloudinary": "^4.0.0",
+    "@strapi/strapi": "4.0.0",
+    "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2"
   },
   "author": {
