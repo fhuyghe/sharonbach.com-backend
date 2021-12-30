@@ -3,10 +3,6 @@
   "private": true,
   "version": "0.1.0",
   "description": "Sharon Bach's portfolio website",
-  "engines": {
-    "npm": "6.x",
-    "yarn": "1.x"
-  },
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -33,7 +29,8 @@
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
+    "npm": ">=6.0.0",
+    "yarn": "1.x"
   },
   "license": "MIT"
 }
