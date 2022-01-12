@@ -31,6 +31,14 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "content-block.text",
+        "content-block.image",
+        "content-block.images"
+      ]
     }
   }
 }

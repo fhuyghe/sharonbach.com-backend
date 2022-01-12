@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_block_gallery",
+  "info": {
+    "displayName": "gallery",
+    "icon": "layer-group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "columns": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three"
+      ]
+    }
+  }
+}
