@@ -39,6 +39,12 @@
         "content-block.image",
         "content-block.images"
       ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "projects"
     }
   }
 }
