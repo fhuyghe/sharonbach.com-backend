@@ -45,6 +45,10 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "projects"
+    },
+    "intro": {
+      "type": "text",
+      "default": "This appears at the top of the project page"
     }
   }
 }
