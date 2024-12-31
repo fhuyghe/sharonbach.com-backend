@@ -9,17 +9,19 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/design-system": "^0.0.1-alpha.71",
-    "@strapi/plugin-graphql": "4.0.0",
-    "@strapi/plugin-i18n": "4.0.0",
-    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/plugin-graphql": "4.25.18",
+    "@strapi/plugin-i18n": "4.25.18",
+    "@strapi/plugin-users-permissions": "4.25.18",
     "@strapi/provider-upload-cloudinary": "^4.0.0",
-    "@strapi/strapi": "4.0.0",
+    "@strapi/strapi": "4.25.18",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.2"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.3.4",
+    "sqlite3": "^5.1.7",
+    "styled-components": "^5.3.11"
   },
   "author": {
     "name": "13milliseconds"
@@ -28,8 +30,8 @@
     "uuid": "424c5ec1-8617-466c-841b-2994cef8bf4f"
   },
   "engines": {
-    "node": "16.x.x",
-    "npm": ">=8.0.0"
+    "node": "18.x.x",
+    "npm": ">=10.0.0"
   },
   "license": "MIT"
 }
