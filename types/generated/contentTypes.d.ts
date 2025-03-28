@@ -450,6 +450,11 @@ export interface ApiHomeHome extends Schema.SingleType {
     createdBy: Attribute.Relation<'api::home.home', 'oneToOne', 'admin::user'> &
       Attribute.Private;
     intro: Attribute.Text;
+    projects: Attribute.Relation<
+      'api::home.home',
+      'oneToMany',
+      'api::project.project'
+    >;
     updatedAt: Attribute.DateTime;
     updatedBy: Attribute.Relation<'api::home.home', 'oneToOne', 'admin::user'> &
       Attribute.Private;
