@@ -25,6 +25,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project"
+    },
+    "Tags": {
+      "type": "text",
+      "default": "Branding, Web Design, Interactivity"
     }
   }
 }

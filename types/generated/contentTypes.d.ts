@@ -455,6 +455,8 @@ export interface ApiHomeHome extends Schema.SingleType {
       'oneToMany',
       'api::project.project'
     >;
+    Tags: Attribute.Text &
+      Attribute.DefaultTo<'Branding, Web Design, Interactivity'>;
     updatedAt: Attribute.DateTime;
     updatedBy: Attribute.Relation<'api::home.home', 'oneToOne', 'admin::user'> &
       Attribute.Private;
